@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+</head>
+<body>
+    <nav id="nav-desktop">
+        <div class="div-logo">Bernard Seño</div>
+
+        <div>
+            <ul class="nav-links">
+                <li><a href="#sec-about">About</a></li>
+                <li><a href="#sec-skills">Skills</a></li>
+                <li><a href="#sec-projects">Projects</a></li>
+                <li><a href="#sec-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="nav-hamburger">
+        <div class="div-logo">Bernard Seño</div>
+        <div class="div-hamburger-menu">
+            <div class="div-hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="div-menu-links">
+                <li><a href="#sec-about" class="smooth-scroll">About</a></li>
+                <li><a href="#sec-skills" class="smooth-scroll">Skills</a></li>
+                <li><a href="#sec-projects" class="smooth-scroll">Projects</a></li>
+                <li><a href="#sec-contact" class="smooth-scroll">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="sec-profile">
+        <div class="div-section-pic-container">
+            <img src="./assets/profile_cropped.jpg" alt="Bernard Seño" class="profile-img">
+        </div>
+
+        <div class="div-section-text">
+            <p class="p-section-txt-p1">Hello World! My name is</p>
+            <h1 class="h-title">Bernard Seño</h1>
+            <p class="p-section-txt-p2">Junior Front-End Developer</p>
+            <div class="div-btn-container">
+                <button type="button" id="btn-download" class="btn btn-color-2">Download CV</button>
+                <button type="button" id="btn-contact" class="btn btn-color-1">Contact Info</button>
+            </div>
+
+            <div id="div-socials-container">
+                <img src="./assets/github.png" class="img-icon img-github" alt="GitHub">
+            </div>
+        </div>
+    </section>
+    
+    <section id="sec-about">
+            <p class="p-section-txt-p1">Get To Know More</p>
+            <h1 class="h-title">About Me</h1>
+            <div class="div-section-container">
+                <div class="div-section-pic-container">
+                    <img src="./assets/about-me.jpg" alt="Profile Picture" class="img-about-pic">
+                </div>
+                <div class="div-about-details-container">
+                    <div class="div-about-containers">
+                        <div class="div-details-container">
+                            <img src="./assets/experience.png" alt="Experience" class="img-icon">
+                            <h3>Previous Experience</h3>
+                            <p>Reports Analyst <br>Foundever</p>
+                        </div>
+
+                        <div class="div-details-container">
+                            <img src="./assets/education.png" alt="Education" class="img-icon">
+                            <h3>Education</h3>
+                            <p>BSIT - CompTech <br>Talisay City College</p>
+                        </div>
+                    </div>
+                    <div class="div-text-container">
+                        <p>As an aspiring Junior Front-End Developer. I posses an impressive set of skills in JavaScript, HTML and CSS. Although, I excel more on handling the logic part of how things come and go in UI to User interaction and data cycle I am also passionate to learn and improve my designs and be good at making a responsive app. I would like to acquire enough set of skills to craft engaging interfaces while having a clean and optimized code. I can be resourceful at busy times and at the same time I'm always open for a coach, I love working with a team and collaborating with people whos passionate in sharing their insights.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#sec-skills">
+                <img src="./assets/arrow.png" alt="Arrow" class="img-icon img-arrow">
+            </a>
+    </section>
+
+    <section id="sec-skills">
+        <p class="p-section-txt-p1">Here's My</p>
+        <h1 class="h-title">Tech Stack</h1>
+        <div class="div-skill-details-container">
+            <div class="div-about-containers">
+                <div class="div-details-container">
+                    <h2 class="div-skills-subtitle">Front-End Development</h2>
+                    <div class="div-article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills" class="img-icon">
+
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills" class="img-icon">
+
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Skills" class="img-icon">
+
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="#sec-projects">
+            <img src="./assets/arrow.png" alt="Arrow" class="img-icon img-arrow">
+        </a>
+    </section>
+
+    <section id="sec-projects">
+        <p class="p-section-txt-p1">Check Out My Recents</p>
+        <h1 class="h-title">Projects</h1>
+        <div class="div-projects-container">
+            <div class="div-projects">
+                <img src="./assets/project-2.png" alt="Project 2" class="img-project">
+                <h2>Car Rental</h2>
+                <p class="p-proj-font">This website allows users to rent cars for personal or business use. It also provides an interface where users can compare the specifications of each cars that they would like to book, they can book and set dates for pickups and drop offs and login or register for app use. </p>
+                <h3>JS || CSS</h3>
+                <div class="div-btn-container">
+                    <button type="button" class="btn btn-color-2" id="btn-car-github">Github</button>
+                    <button type="button" class="btn btn-color-1" id="btn-car-live">Live Demo</button>
+                </div>
+            </div>
+            <div class="div-projects">
+                <img src="./assets/project-1.png" alt="Project 1" class="img-project">
+                <h2>Sales Tracker</h2>
+                <p class="p-proj-font">This project is for business use. It allows users to keep track of the progress of their sales. It has features such as graphs, notes and forms. Though the design is not appealing, I would like to showcase it here as its my very first project in attempt of making a website. I would like to highlight my effieciency in JS and the potential of the website if I improve my skill in web design and web responsiveness.</p>
+                <h3>JS || Chart.JS || CSS</h3>
+                <div class="div-btn-container">
+                    <button type="button" class="btn btn-color-2" id="btn-sales-github">Github</button>
+                    <button type="button" class="btn btn-color-1" id="btn-sales-live">Live Demo</button>
+                </div>
+            </div>
+        </div>
+
+        <a href="#sec-contact">
+            <img src="./assets/arrow.png" alt="Arrow" class="img-icon img-arrow">
+        </a>
+    </section>
+
+    <section id="sec-contact">
+        <p class="p-section-txt-p1">Lets Get in Touch</p>
+        <h1 class="h-title">Contact Me</h1>
+        <div class="div-contact-wrapper">
+            <div class="div-contact-info-upper-container">
+                <img src="./assets/email.png" alt="Email Icon" class="img-icon contact-icon">
+                <p><a href="mailto:bernardseno665@gmail.com">bernardseno665@gmail.com</a></p>
+            </div>
+            <div class="div-contact-info-upper-container">
+                <img src="./assets/email.png" alt="Email Icon" class="img-icon contact-icon">
+                <p>Mobile Number: 0942 494 3661</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
